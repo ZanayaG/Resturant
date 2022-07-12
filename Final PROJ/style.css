@@ -1,0 +1,42 @@
+html{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5587a62fe4b01ea9a58a22df/1442386017172-L789NQZVZUXQGHPOBKIE/porterhouse.jpg?format=2500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+ 
+h1 { 
+    font-size: 90px;
+    text-shadow: brown 10px 5px 6px;
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Alfa Slab One', cursive, Arial, Helvetica, sans-serif;
+
+}
+
+
+
+a:hover {
+    background-color: brown;
+    border-radius: 50px 20px;
+    padding: 15px;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+div {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Alfa Slab One';
+}
+
+a:visited {color: black; }
+
+a {
+    color: black;
+}

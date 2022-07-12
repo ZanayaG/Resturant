@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reservation.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://media.istockphoto.com/vectors/steak-mascot-holding-a-fork-and-knife-vector-id464797188?k=20&m=464797188&s=612x612&w=0&h=rAFbQH6Syv1yQbwlPl1z9PIyVhBQMTeat-I1UZGhzT0=">
+    <title>Reserve Yummies</title>
+</head>
+<body>
+    <header>
+        <body>
+        <h1>Yummies<span>SteakHouse</span></h1>
+        <nav>
+            <ul>
+                <div class="aboutu"> <div class="AU"> <li><a href="AboutUs.html">About Us</a></li> </div> </div>
+               <div class="Reservation">    <li><a href="menu2.html">Menu</a></li> </div>
+            </ul>
+        </nav>
+        </header>
+
+<div class="body">
+
+
+    <b  class="txt"> RESERVATIONS </b>
+    <form action="https://www.thespruceeats.com/steak-house-steak-recipe-478977" method="get">
+
+    <fieldset class="modified">
+
+        <div class="image">  <img src="https://cdn.vox-cdn.com/thumbor/G1GMY6IKWhK4d_Qu9i2H1HorWtg=/0x0:1212x924/1200x900/filters:focal(510x366:702x558):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62595105/LeBernardinPrivateRoom.0.0.png" alt="Dining Area" /> </div>
+<!--LABEL AND INPUTS FOR FORM TAG AND WORKING BUTTONS-->
+        <b> --Please Enter Your Information Below </b>
+
+        <div class="1">
+        <br>  <label for="name">First Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div class="2">
+          <label for="name">Last Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div>
+            <label for="phone">Phone Number</label>
+            <input
+            class="form-control"
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            maxlength="12"
+            placeholder="718-456-7890"
+            required
+          />
+
+          </div>
+
+        <div class="3">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+      
+    
+
+
+<!---radio BUTTON-->
+
+<br><br><div>
+    <label for="date">Date</label>
+    <input type="date" name="fg" id="fg" />
+  </div>
+
+    <div>
+        <br />
+        <label for="toppings"> <b> Brunch/Lunch/Dinner </b> </label>
+        <br />
+        <input
+          type="radio"
+          value="afternoon"
+          name="time"
+          id="afternoon"
+        />
+        12PM-6PM
+        <input
+          type="radio"
+          value="evening"
+          name="time"
+          id="evening"
+        />
+       6PM-12AM
+<input 
+type="radio"
+value="midnight"
+name="time"
+id="midnight"
+/>
+12AM-4AM
+      </div>
+
+
+
+<!--WORKING SUBMIT AND RESETS-->
+
+      <br><div>
+        <button type="submit">Reserve</button>
+        <button type="reset">Reset</button>
+      </div>
+
+
+
+
+    </div>
+    
+</fieldset>
+
+
+
+
+
+</form>
+
+
+
+
+</div>
+
+</div>
+
+
+</body>
+</html>
